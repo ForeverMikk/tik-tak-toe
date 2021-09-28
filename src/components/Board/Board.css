@@ -1,3 +1,9 @@
+.board-row {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
 .board-row:after {
     clear: both;
     content: "";
