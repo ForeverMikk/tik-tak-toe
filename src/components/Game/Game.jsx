@@ -1,12 +1,16 @@
 import React from 'react';
 
-import Board from './Board';
+import Board from '../Board/Board';
+
+import './Game.css'
 
 const Game = () => {
     return(
         <div className="game">
-            <h1>Tic Tac Toe</h1>
-            <h2>By Michael Molina Pérez</h2>
+            <div className="game-title">
+                <h1>Tic Tac Toe</h1>
+                <h2>By Michael Molina Pérez</h2>
+            </div>
             <br />
             <br />
             <div className="game-board">

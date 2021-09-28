@@ -1,6 +1,7 @@
 import React from 'react';
-import Square from './Square'
+import Square from '../Square/Square'
 
+import './Board.css'
 
 const Board = () => {
 
@@ -10,9 +11,7 @@ const Board = () => {
     
     const status = 'Next Player: X'
 
-    return(
-        
-            
+    return(  
             <div>
                 <h4 className="status">{status}</h4>
                 <div className="board-row">
