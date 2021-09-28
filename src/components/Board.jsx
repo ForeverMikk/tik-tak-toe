@@ -5,7 +5,7 @@ import Square from './Square'
 const Board = () => {
 
     function renderSquare(i){
-        return <Square />
+        return <Square value={i}/>
     }
     
     const status = 'Next Player: X'
