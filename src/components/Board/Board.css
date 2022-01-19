@@ -1,15 +1,5 @@
-.board-row {
-  display: flex;
-  justify-content: center;
-  align-content: center;
+.board{
+  margin: 2rem 0;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 0fr);
 }
-
-.board-row:after {
-    clear: both;
-    content: "";
-    display: table;
-  }
-  
-  .status {
-    /* margin-bottom: 5px; */
-  }

@@ -1,16 +1,14 @@
-import React, { useEffect, useState} from "react";
+import React from "react";
 
 import './Square.css'
 
-const Square = (props) => {
+const Square = ({value, onClick}) => {
 
-    const [state, setState] = useState(null)
+    // const [value, setValue] = useState(null)
 
     return(
-        <button className="square" onClick={() => {
-            setState('X')
-        }}>
-            {state}
+        <button className="square" onClick={onClick}>
+            {value}
         </button>
     )
 }

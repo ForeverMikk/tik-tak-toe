@@ -1,22 +1,18 @@
-
-.game {
-
-}
 .game-title {
     color: #61dafb ;
     /* line-height: 4rem;  */
 }
-
 .game-title h1,
 .game-title h2 {
     margin: 0;
     padding: 0;
 }
-
 .game-title h2 {
     font-size: larger;
 }
-  
-.game-info {
-    
+
+.game-board {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
